@@ -9,7 +9,8 @@ This documentation set consists of several sections which are shown in the navig
 
 * The **Getting Started Guide** walks through the process of configuring an AREDN |trade| radio node to be part of a mesh network.
 * The **Network Design Guide** provides background information and tips for planning and deploying a robust mesh network.
-* The **Applications and Services Guide** discusses the types of programs or services that can be used across a mesh network. *NOTE: This section is incomplete while in progress.*
+* The **Applications and Services Guide** discusses the types of programs or services that can be used across a mesh network.
+* The **How-to Guides** provide tips and techniques for various tasks.
 * Finally, the **Appendix** contains supplementary information.
 
 If you wish to locate specific topics within the documentation, you can type keywords into the *Search docs* field to display a list of items which match your search.
@@ -31,15 +32,15 @@ If you would like to see the documentation for a specific AREDN release, click o
    arednGettingStarted/advanced_config
 
 .. toctree::
-  :maxdepth: 1
-  :caption: Network Design Guide
-  :hidden:
+   :maxdepth: 1
+   :caption: Network Design Guide
+   :hidden:
 
-  arednNetworkDesign/networking_overview
-  arednNetworkDesign/network_topology
-  arednNetworkDesign/frequency_bands
-  arednNetworkDesign/channel_planning
-  arednNetworkDesign/network_modeling
+   arednNetworkDesign/networking_overview
+   arednNetworkDesign/network_topology
+   arednNetworkDesign/frequency_bands
+   arednNetworkDesign/channel_planning
+   arednNetworkDesign/network_modeling
 
 .. toctree::
    :maxdepth: 1
@@ -52,8 +53,16 @@ If you would like to see the documentation for a specific AREDN release, click o
    arednServicesGuide/file_sharing
    arednServicesGuide/voip_programs
    arednServicesGuide/video_streaming
-   arednServicesGuide/collaborative_editing
+   arednServicesGuide/dispatch_programs
    arednServicesGuide/other_programs
+
+.. toctree::
+   :maxdepth: 1
+   :caption: How-to Guides
+   :hidden:
+
+   arednHow-toGuides/howto_overview
+   arednHow-toGuides/puttygen_ssh_keys
 
 .. toctree::
    :maxdepth: 1
